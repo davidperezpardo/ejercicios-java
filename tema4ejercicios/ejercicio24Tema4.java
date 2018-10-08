@@ -25,7 +25,7 @@ public class ejercicio24Tema4 {
 		int visitas = dias*30;
 		
 		
-			switch(seleccion)	{
+		switch(seleccion)	{
 				
 				case 1 :
 						
@@ -105,7 +105,7 @@ public class ejercicio24Tema4 {
 							
 							System.out.println("no existe cargo con la opcion seleccionada");
 	
-			}
+		}
 	
 	}
 }
