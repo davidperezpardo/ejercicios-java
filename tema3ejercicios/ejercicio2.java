@@ -13,7 +13,7 @@ public class ejercicio2 {
   Scanner s = new Scanner(System.in);
   
   System.out.println("introduzca euros a convertir:");
-   euros = Integer.parseInt (s.nextLine());
+  euros =s.nextDouble();
   pesetas = 166.386;
   resultado = (euros * pesetas);
   

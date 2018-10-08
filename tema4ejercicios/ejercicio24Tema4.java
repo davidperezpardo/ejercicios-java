@@ -15,14 +15,12 @@ public class ejercicio24Tema4 {
 		int seleccion = s.nextInt();
 	
 	System.out.println("¿cuantos días ha estado visitando clientes?");
-		
-		Scanner t = new Scanner(System.in);
-			int dias = t.nextInt();
+	
+		int dias = s.nextInt();
 		
 	System.out.println("¿es usted  1 - (soltero)  2 - (casado)?");
 		
-		Scanner u = new Scanner(System.in);
-		int estado = u.nextInt();
+		int estado = s.nextInt();
 		
 		int visitas = dias*30;
 		
@@ -39,7 +37,9 @@ public class ejercicio24Tema4 {
 							System.out.println("retención IRPF (25%) = " + (950+visitas)*25/100);
 							System.out.println("sueldo neto = " +((950+visitas) - (25*(950+visitas)/100)));
 						
-						}else {
+						}else 
+						
+						{
 
 							System.out.println("sueldo base  = 950" );
 							System.out.println("dietas ("+ dias+") viajes = " + visitas);
@@ -47,7 +47,7 @@ public class ejercicio24Tema4 {
 							System.out.println("retención IRPF (20%) = " + (950+visitas)*20/100);
 							System.out.println("sueldo neto = " +((950+visitas) - (20*(950+visitas)/100)));
 							
-							}
+						}
 							
 							
 				break;
@@ -62,7 +62,8 @@ public class ejercicio24Tema4 {
 							System.out.println("retención IRPF (25%) = " + (1200+visitas)*25/100);
 							System.out.println("sueldo neto = " +((1200+visitas) - (25*(1200+visitas)/100)));
 							
-						}else {
+						}else 
+						{
 
 							System.out.println("sueldo base = 1200" );
 							System.out.println("dietas ("+ dias+") viajes  = " + visitas);
@@ -70,7 +71,7 @@ public class ejercicio24Tema4 {
 							System.out.println("retención IRPF (20%) = " + (1200+visitas)*20/100);
 							System.out.println("sueldo neto = " +((1200+visitas) - (20*(1200+visitas)/100)));
 							
-							}
+						}
 							
 							
 				
@@ -87,7 +88,8 @@ public class ejercicio24Tema4 {
 							System.out.println("retención IRPF (25%) = " + (1600+visitas)*25/100);
 							System.out.println("sueldo neto = " +((1600+visitas) - (25*(1600+visitas)/100)));
 						
-						}else {
+						}else 
+						{
 							
 							System.out.println("sueldo base = 1600" );
 							System.out.println("dietas ("+ dias+") viajes = " + visitas);
@@ -96,7 +98,7 @@ public class ejercicio24Tema4 {
 							System.out.println("sueldo neto = " +((1600+visitas) - (20*(1600+visitas)/100)));
 							
 							
-							}
+						}
 							
 							
 				default:

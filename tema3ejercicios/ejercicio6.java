@@ -14,8 +14,7 @@ public class ejercicio6 {
 		double base = b.nextDouble();
 		
 		System.out.println("introduzca la altura en cms");
-		Scanner a = new Scanner(System.in);
-		double altura =a.nextDouble();
+		double altura =b.nextDouble();
 		
 		System.out.println("el área del triángulo es = " + (base*altura)/2 + " cms2");
 		

@@ -13,8 +13,7 @@ public class ejercicioif11 {
   
   
   System.out.println("introduzca los minutos:");
-  Scanner t = new Scanner(System.in);
-  int minutos = t.nextInt();
+  int minutos = s.nextInt();
   int min = minutos*60;
   
   int segundos = 86400 - (h + min);

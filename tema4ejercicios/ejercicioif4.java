@@ -16,7 +16,7 @@ public class ejercicioif4 {
     
     }else  { sueldo = 40 * 12 + (horas - 40)*16;
      
-     }
+    }
     
     System.out.print("su sueldo en esta semana es de:"+ sueldo);
     

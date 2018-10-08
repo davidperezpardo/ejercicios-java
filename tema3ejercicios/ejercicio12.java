@@ -18,11 +18,8 @@ public class ejercicio12 {
 	
 		System.out.println("escriba la nota desea para el trimestre");
 			
-			Scanner t = new Scanner(System.in);
-			double notaTrimestre = t.nextDouble();
-			
+			double notaTrimestre = n1.nextDouble();
 			double nota2 = ((notaTrimestre*100) - (nota1*40))/60;
-			
 		
 		System.out.println("necesitas sacar " + nota2 + " en el segundo examen para tener un " + notaTrimestre + " en el trimestre");
 		

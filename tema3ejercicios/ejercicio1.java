@@ -13,12 +13,12 @@ public class ejercicio1 {
     Scanner escanerEntrada = new Scanner(System.in);
     
 			System.out.println("introduzca el primer numero:");
-			primerNumero = Integer.parseInt (escanerEntrada.nextLine());
+			primerNumero = escanerEntrada.nextInt();
     
 			System.out.println("introduzca segundo numero:");
-			segundoNumero = Integer.parseInt (escanerEntrada.nextLine());
+			segundoNumero = escanerEntrada.nextInt();
 			
-			resultado = primerNumero + segundoNumero;
+			resultado = primerNumero * segundoNumero;
 			
 			System.out.println("resultado");
 			

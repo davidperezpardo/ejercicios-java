@@ -6,19 +6,17 @@ public class ejercicio10Tema4 {
 	
 	public static void main (String args[]) {
 	
-	System.out.println("HORÓSCOPO");
+		System.out.println("HORÓSCOPO");
 	
-	System.out.println("introduzca su dia de nacimiento");
+		System.out.println("introduzca su dia de nacimiento");
 	
 		Scanner s = new Scanner(System.in);
+	  int dia = s.nextInt();
 	
-		int dia = s.nextInt();
-	
-	System.out.println("introduzca su mes de nacimiento (letras)");
-	
-		Scanner m = new Scanner(System.in);
-	
-		String mes =m.nextLine();
+		System.out.println("introduzca su mes de nacimiento (letras)");
+		
+		Scanner n = new Scanner(System.in);
+		String mes =n.nextLine();
 	
 		
 			switch(mes)	{
@@ -29,7 +27,7 @@ public class ejercicio10Tema4 {
 					
 					}else if (dia <32 || dia >20) {System.out.println("es usted acuario");
 							
-							}
+					}
 					
 				break;
 				
@@ -38,7 +36,8 @@ public class ejercicio10Tema4 {
 					if (dia <20 ) {System.out.println("es usted capricornio");
 					
 					}else if (dia <19 || dia <28)  {System.out.println("es usted piscis");
-							}
+					
+					}
 						
 				
 				case "marzo" :
@@ -47,7 +46,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <20 || dia <31) {System.out.println("es usted piscis");
 						
-							}
+					}
 				
 				break;
 				
@@ -58,7 +57,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <20 || dia <31) { System.out.println("es usted tauro");
 					
-						 }
+					}
 				
 				break;
 				
@@ -69,7 +68,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <21 || dia <32) {System.out.println("es usted géminis");
 						
-							}
+					}
 				
 				break;
 				
@@ -80,7 +79,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <22 || dia <31) {System.out.println("es usted cáncer");
 						
-							}
+					}
 				
 				break;
 				
@@ -91,7 +90,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <23 || dia <32) {System.out.println("es usted leo");
 						
-							}
+					}
 				
 				break;
 				
@@ -102,7 +101,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <23 || dia <31) {System.out.println("es usted virgo");
 						
-							}
+					}
 				
 				break;
 				
@@ -113,7 +112,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia <23 || dia <32) {System.out.println("es usted libra");
 						
-							}
+					}
 				
 				break;
 				
@@ -124,7 +123,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia >23 || dia <31) {System.out.println("es usted escorpio");
 						
-							}
+					}
 				
 				break;
 				
@@ -135,8 +134,8 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia >22 || dia <32) {System.out.println("es usted sagitario");
 						
-							}
-				
+					}
+			
 				break;
 				
 				
@@ -146,7 +145,7 @@ public class ejercicio10Tema4 {
 						
 					}else if (dia >21 || dia <31) {System.out.println("es usted capricornio");
 						
-							}
+					}
 				
 				break;
 				

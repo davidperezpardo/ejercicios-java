@@ -7,7 +7,7 @@ public class ejercicio06Tema4 {
 	public static void main (String args[]) {
 		
 	System.out.println("¿cuanto tiempo tardará en caer una pelota desde x metros de altura?");
-	System.out.println("introduzca la distancia para saber el tiempo de caida");
+	System.out.println("introduzca la distancia en metros para saber el tiempo de caida");
 	
 	Scanner s = new Scanner(System.in);
 	

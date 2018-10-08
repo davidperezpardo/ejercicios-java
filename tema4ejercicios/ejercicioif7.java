@@ -10,13 +10,10 @@ public class ejercicioif7 {
   Scanner s = new Scanner(System.in);
   double nota1 = s.nextDouble();
   
-  
   System.out.println("introduzca la segunda nota");
-  Scanner t = new Scanner(System.in);
   double nota2 = s.nextDouble();
   
   System.out.println("introduzca la tercera nota:");
-  Scanner v =new Scanner(System.in);
   double nota3 =s .nextDouble();
 	
   System.out.printf("la nota media que tienes usted es de: %.2f",(nota1 + nota2 + nota3)/3);
