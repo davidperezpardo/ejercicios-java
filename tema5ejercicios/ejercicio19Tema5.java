@@ -29,8 +29,7 @@ public class ejercicio19Tema5 {
       //bucle para los caracteres de la piramide
       
       for (int j=1; j<=contadorSimbolos; j++) {
-          
-          System.out.print(simbolo);
+        System.out.print(simbolo);
       
       }
       
