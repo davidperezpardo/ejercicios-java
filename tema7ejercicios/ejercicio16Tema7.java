@@ -5,7 +5,9 @@ public class ejercicio16Tema7 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*muestra array de 20 numeros aleatorios (0-400) y da a elegir al usuario
+		 * señalar los que son múltiplos de 5 o de 7*/
+		 */
 		int eleccion;
 		int numeros[] = new int [20];
 		for(int i=0; i<20; i++) {
