@@ -10,13 +10,16 @@ public class palabrasEnOrden {
 				+ "-salir- cuando quiera finalizar");
 		System.out.println("Se mostrarán las palabras en el orden que las introdujo");
 		Scanner s = new Scanner(System.in);
-		String palabra;
+		String palabra = "";
 		String todasPalabras= ""; //tiene que estar declarada e inicializada para poder concatenar
 		do {
 			System.out.print("Introduzca una palabra :");		
 			palabra = s.next();	
-			todasPalabras += palabra+" ";		//con el + concatenamos cada palabra introducida por teclado
-																		 //+" " le aplica un espacio entre palabra y palabra
+			if(!palabra.equals("salir")) {
+				
+					todasPalabras += palabra+" ";		//con el + concatenamos cada palabra introducida por teclado																			//+" " le aplica un espacio entre palabra y palabra
+			}
+		
 		}while(!palabra.equals("salir"));
 		System.out.println(todasPalabras);
 		
