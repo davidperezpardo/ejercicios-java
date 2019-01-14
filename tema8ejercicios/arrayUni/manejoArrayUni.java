@@ -1,5 +1,7 @@
 package arrayUni;
 
+import matematicas.varias;
+
 /**
  * Funciones variadas para el manejo de arrays unidimensionales (vectores).
  * Corresponde a los ejercicios 20-28 del tema 8 de funciones.
@@ -189,6 +191,52 @@ public class manejoArrayUni {
       x[x.length - 1] = a;
     }
     return x;
+
+  }
+
+  /**
+   * Devuelve un array unidimensional de tamaño igual o menor al array pasado como
+   * parámetro, con todos los números primos que se encuentren dentro de él.
+   * parámetro.
+   * 
+   * @param x Array unidimensional de donde queremos "filtrar" los números primos.
+   * @return Devuelve array unidimensional con los nº primos contenidos en el
+   *         array pasado como parámetro y un tamaño = a N números primos. Si el
+   *         array original no contiene nºs primos,éste devuelve un solo elemento
+   *         = "-1".
+   */
+  public static int[] filtraPrimos(int x[]) {
+
+    int contaPrimos = 0;
+    int valorArray = 0;
+    for (int i = 0; i < x.length; i++) {
+      valorArray = x[i];
+      // contamos todos los primos del array para asignar al array
+      // de primos el mismo tamaño que el nº de primos.
+      if (varias.esPrimo(valorArray)) {
+        contaPrimos++;
+      }
+    }
+
+    // array de primos con tamaño = a nº de primos.
+    int primos[] = new int[contaPrimos];
+    // si contaPrimos es = 0,no hay primos en el array.
+    if (contaPrimos == 0) {
+      int sinPrimos[] = { -1 };
+      return sinPrimos;
+    }
+
+    int contador = 0;
+    for (int i = 0; i < x.length; i++) {
+      valorArray = x[i];
+      // si es primo,lo guardamos en array de primos.
+      if (varias.esPrimo(valorArray)) {
+        primos[contador++] = valorArray;
+
+      }
+
+    }
+    return primos;
 
   }
 
