@@ -1,4 +1,4 @@
-package arrayUni;
+﻿package arrayUni;
 
 import matematicas.varias;
 
@@ -197,7 +197,7 @@ public class manejoArrayUni {
   /**
    * Devuelve un array unidimensional de tamaño igual o menor al array pasado como
    * parámetro, con todos los números primos que se encuentren dentro de él.
-   * parámetro.
+   * 
    * 
    * @param x Array unidimensional de donde queremos "filtrar" los números primos.
    * @return Devuelve array unidimensional con los nº primos contenidos en el
