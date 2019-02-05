@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * CRUD - Colección de discos 
  * 
- * Ejercicio 3 tema9 aray de objetos.
+ * Ejercicio 3 tema9 array de objetos.
  * consulta,crea,modifica y borra una colección de discos
  * utilizando arrays de objetos.
  * @author David Pérez Pardo
