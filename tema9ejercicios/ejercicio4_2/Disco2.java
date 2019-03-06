@@ -1,0 +1,58 @@
+package ejercicio4_2;
+
+
+public class Disco2 {
+
+  private String codigo = "LIBRE";
+  private String autor;
+  private String titulo;
+  private String genero;
+  private int duracion;
+ 
+  public String getCodigo() {
+    return codigo;
+  }
+  public void setCodigo(String codigo) {
+    this.codigo = codigo;
+  }
+  public String getAutor() {
+    return autor;
+  }
+  public void setAutor(String autor) {
+    this.autor = autor;
+  }
+  public String getTitulo() {
+    return titulo;
+  }
+  public void setTitulo(String titulo) {
+    this.titulo = titulo;
+  }
+  public String getGenero() {
+    return genero;
+  }
+  public void setGenero(String genero) {
+    this.genero = genero;
+  }
+  public int getDuracion() {
+    return duracion;
+  }
+  public void setDuracion(int duracion) {
+    this.duracion = duracion;
+  }
+  
+
+  public String toString() {
+    
+    String listado  ="---------------------------";
+           listado +="\nCódigo:"+codigo;
+           listado +="\nAutor:"+autor;
+           listado +="\nTítulo:"+titulo;
+           listado +="\nGénero:"+genero;
+           listado +="\nDuración:"+duracion;
+           listado +="\n---------------------------";
+           return listado;
+  }
+  
+  
+
+}
