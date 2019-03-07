@@ -1,2 +1,2 @@
 # ejercicios-java
-Ejercicios de programación (1º DAW)
+Ejercicios de la asignatura de programación (1º DAW) realizados con Java.
