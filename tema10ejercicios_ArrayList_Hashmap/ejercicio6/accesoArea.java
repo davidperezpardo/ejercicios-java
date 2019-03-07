@@ -1,4 +1,4 @@
-package ejercicio6;
+﻿package ejercicio6;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +22,7 @@ public class accesoArea {
     */
 
     HashMap<String, String> acceso = new HashMap<String, String>();
-    //el nombre de usuario será la Key del HasMap,buscaremos la pass a partir del nombre.
+    //el nombre de usuario será la Key del HashMap,buscaremos la pass a partir del nombre.
     //la key en un HashMap (nombre usuario) no se puede repetir.
     acceso.put("admin","a234n");
     acceso.put("david", "z69hl");
