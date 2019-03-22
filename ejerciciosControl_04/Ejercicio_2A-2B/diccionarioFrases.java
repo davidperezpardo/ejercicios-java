@@ -1,4 +1,4 @@
-package ejercicio2Opcion2;
+﻿package ejercicio2Opcion2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,7 +31,7 @@ public class diccionarioFrases {
 
     Scanner f = new Scanner(System.in);
     int menu;
-
+    //MENU
     System.out.println("==DICCIONARIO DE PALABRAS RELACIONADAS==\n\n");
     do {
 
@@ -43,13 +43,13 @@ public class diccionarioFrases {
 
       switch (menu) {
       case 1:
-
-        muestrFrase(diccionario);
+	//funcion para mostrar 
+        muestraFrase(diccionario);
 
         break;
 
       case 2:
-
+	//funcion para borrar
         borra(diccionario);
 
         break;
@@ -75,7 +75,7 @@ public class diccionarioFrases {
   public static void muestraDiccionario(HashMap<String, String> d) {
 
     for (Map.Entry dic : d.entrySet()) {
-      //System.out.println("palabra ---> " + dic + " <---Frase");
+      
       System.out.println(dic.getKey() + " ---> " + dic.getValue());
     }
 
@@ -87,7 +87,7 @@ public class diccionarioFrases {
    * 
    * @param d HashMap diccionario
    */
-  public static void muestrFrase(HashMap<String, String> d) {
+  public static void muestraFrase(HashMap<String, String> d) {
 
     Scanner f = new Scanner(System.in);
     System.out.println("Introduzca una palabra:");
