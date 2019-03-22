@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--formulario para recogida de datos ejercicio JSP-->
+<html>
+  <head>
+    <title>tabla de numeros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h3>Tabla de números</h3>
+    <hr>
+    <form method="POST" action="tablaNumeros.jsp">
+
+      Introduzca el nº máximo que quiere visualizar:<input type="number" name="tope"><br><br>
+      Indique dígito (0-9) para señalizar los nºs que lo contienen:<input type="number" name="senial"><br><br>
+      Indique cantidad de números a mostrar por fila<input type="number" name="fila">
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
