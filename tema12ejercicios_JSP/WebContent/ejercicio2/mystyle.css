@@ -1,0 +1,12 @@
+body {
+
+	background-color:  #FFF8DC;
+	font-family:monospace;
+}
+.datos {
+	
+  list-style-type: none;
+  text-align:center;
+  font-size:15px;
+  background-color:  #FFF8DC;
+}
