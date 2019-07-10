@@ -18,7 +18,7 @@ import java.util.Scanner;
  *
  */
 
-public class colaCaja {
+public class colaCajaSuper {
 
   public static void main(String[] args) {
 
